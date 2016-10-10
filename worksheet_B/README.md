@@ -1,3 +1,4 @@
+```
 Display start screen
 When player presses power initiate game
 Set correct word, add 11 incorrect words and 5> 11< symbol chains
@@ -12,3 +13,5 @@ Loop until winning screen or player attempts = 0
     If chain is dud delete the chain and an uncorrect word if word hasn't been selected already
     Else chain is deleted and attempts reset to 4
 When player attempts = 0 display looser screen
+```
+![flowchart] (Fallout Terminal Hacking Flowchart.pdf)
