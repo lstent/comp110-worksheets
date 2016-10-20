@@ -1,0 +1,3 @@
+- (a) The algorithm checks list i and j for duplicates, if a duplicate is found it shows the word true, if not show false
+- (b) For each item in list j it is being compared to every item in list i, written as n*n or n^2 
+- (c)
