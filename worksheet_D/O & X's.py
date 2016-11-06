@@ -21,16 +21,15 @@ class OxoBoard:
     def is_board_full(self):
         # If there are still empty squares on the board, return False
         # If there are no empty squares, return True
-     freespaces = 9
+     emptysquares = 9
      for i in xrange(0, 3):
             for j in xrange(0, 3):
-                if self.grid[i, j] != 0:
-                    freespaces -= 1
-                    print freespaces
-                    if freespaces == 0:
+                if self.grid[i, j] > 0:
+                    emptysquares -= 1
+                if emptysquares == 0:
                         return True
-                    else:
-                        return False
+
+     return False
 
 
     def get_winner(self, current_player):
